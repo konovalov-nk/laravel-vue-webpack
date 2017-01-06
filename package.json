@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "webpack": "cross-env NODE_ENV=development webpack --progress --hide-modules",
+    "dev": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+    "hmr": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --host 0.0.0.0 --port 8080",
+    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.1.0",
+    "laravel-mix": "^0.3.0",
+    "vue": "^2.0.1",
+    "vue-resource": "^1.0.3"
+  }
+}
